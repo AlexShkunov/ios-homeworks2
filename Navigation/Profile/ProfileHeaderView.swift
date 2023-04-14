@@ -60,19 +60,20 @@ class ProfileHeaderView: UIView {
         addSubview(userPhrase)
         addSubview(userButtom)
         addSubview(userText)
+        showStatus()
         
         // userAvatar
-        userAvatar.frame = CGRect(x: 16, y: 16, width: 150, height: 150)
+        userAvatar.frame = CGRect(x: 16, y: 32, width: 150, height: 150)
         userAvatar.layer.cornerRadius = userAvatar.frame.height / 2
         userAvatar.clipsToBounds = true
         userAvatar.layer.borderColor = UIColor.white.cgColor
         userAvatar.layer.borderWidth = 3
         
         // userName
-        userName.frame = CGRect(x: 182, y: 27, width: 250, height: 50)
+        userName.frame = CGRect(x: 182, y: 27, width: 200, height: 50)
         
         // user Phrase
-        userPhrase.frame = CGRect(x: 182, y: 78, width: 250, height: 70)
+        userPhrase.frame = CGRect(x: 182, y: 78, width: 200, height: 70)
         
         // userButton
         userButtom.frame = CGRect(x: 16, y: 204, width: self.frame.size.width - 32, height: 50)
@@ -93,6 +94,7 @@ class ProfileHeaderView: UIView {
     
     @objc func showStatus() {
         userPhrase.text = statusText
+        print(userPhrase.text ?? "Status was not set")
     }
     
     @objc func changedStatus(_ textField: UITextField) {
