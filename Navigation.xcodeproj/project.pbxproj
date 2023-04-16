@@ -73,7 +73,7 @@
 				FAC84FFD29E8589800FA2819 /* Post.swift */,
 				FAC84FEA29E8552D00FA2819 /* Assets.xcassets */,
 				FAC84FEC29E8552D00FA2819 /* LaunchScreen.storyboard */,
-				FAC84FEF29E8552D00FA2819 /* Info.plist */,
+				FAD81F5429EBE4D50082A220 /* Info.plist */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -145,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD81F5529EBE4D50082A220 /* Info.plist in Resources */,
 				FAC84FEE29E8552D00FA2819 /* LaunchScreen.storyboard in Resources */,
 				FAC84FEB29E8552D00FA2819 /* Assets.xcassets in Resources */,
 			);
