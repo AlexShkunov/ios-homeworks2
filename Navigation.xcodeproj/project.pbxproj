@@ -17,7 +17,7 @@
 		FAD81F4D29EBE1E60082A220 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD81F4C29EBE1E60082A220 /* Post.swift */; };
 		FAD81F4F29EBE1EB0082A220 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD81F4E29EBE1EB0082A220 /* PostViewController.swift */; };
 		FAD81F5129EBE1F20082A220 /* ProfileViewControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD81F5029EBE1F20082A220 /* ProfileViewControlle.swift */; };
-		FAD81F5329EBE2990082A220 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD81F5229EBE2990082A220 /* Info.plist */; };
+		FAD81F5529EBE4D50082A220 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD81F5429EBE4D50082A220 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		FAD81F4C29EBE1E60082A220 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FAD81F4E29EBE1EB0082A220 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		FAD81F5029EBE1F20082A220 /* ProfileViewControlle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewControlle.swift; sourceTree = "<group>"; };
-		FAD81F5229EBE2990082A220 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		FAD81F5429EBE4D50082A220 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				FAC84FE729E8552C00FA2819 /* Main.storyboard */,
 				FAC84FEA29E8552D00FA2819 /* Assets.xcassets */,
 				FAC84FEC29E8552D00FA2819 /* LaunchScreen.storyboard */,
-				FAD81F5229EBE2990082A220 /* Info.plist */,
+				FAD81F5429EBE4D50082A220 /* Info.plist */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD81F5529EBE4D50082A220 /* Info.plist in Resources */,
 				FAC84FEE29E8552D00FA2819 /* LaunchScreen.storyboard in Resources */,
 				FAC84FEB29E8552D00FA2819 /* Assets.xcassets in Resources */,
-				FAD81F5329EBE2990082A220 /* Info.plist in Resources */,
 				FAC84FE929E8552C00FA2819 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
