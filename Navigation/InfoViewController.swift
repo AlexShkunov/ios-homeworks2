@@ -14,6 +14,7 @@ class InfoViewController: UIViewController {
         button.isUserInteractionEnabled = true
         button.frame = CGRect(x: 100, y: 300, width: 200, height: 80)
         button.setTitle("Continue?", for: .normal)
+        button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .blue
         button.addTarget(self, action: #selector(showButton), for: .touchUpInside)
         return button
@@ -37,6 +38,5 @@ class InfoViewController: UIViewController {
         alertViewController.addAction(okAction)
         alertViewController.addAction(cancelAction)
         present(alertViewController, animated: true)
-        
     }
 }
